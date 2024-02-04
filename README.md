@@ -20,6 +20,3 @@ Eventually, given the limited screen size, all cells will reach its static state
 
 ## Additional function(s)
 - allows users to click and drag the mouse to 'create chaos' by moving a live cell!
-
-## A glimpse of how it looks like
-![python_WL2v3pMbfb.png](..%2F..%2FScreenshot%2FScreenshots%2F2024-02%2Fpython_WL2v3pMbfb.png)

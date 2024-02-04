@@ -19,4 +19,4 @@ With these 4 rules, each frame checks each cell for those conditions and react a
 Eventually, given the limited screen size, all cells will reach its static state.
 
 ## Additional function(s)
-- allows users to click and drag the mouse to 'create chaos' by moving a live cell!
+- allows users to click and drag the mouse to 'create chaos' by creating and moving a live cell!

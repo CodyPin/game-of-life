@@ -1,7 +1,7 @@
 # Game of Life
 
 ## Welcome
-This is my recreation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), this is my first
+This is my recreation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), my first
 attempt in creating a cellular automation program
 
 ## Getting started

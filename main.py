@@ -84,6 +84,8 @@ if __name__ == '__main__':
         pygame.display.flip()
 
         for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:  # Left mouse button
                     drawing = True

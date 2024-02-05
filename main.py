@@ -7,6 +7,7 @@ rows = 10
 res = 10
 width = 1280
 height = 1280
+FPS = 3
 
 
 def make2DArray(c, r):
@@ -71,8 +72,10 @@ if __name__ == '__main__':
             for j in range(rows):
                 state = grid[i][j]
                 neighbors = countNeighbors(i, j)
+                # if it was dead and have 3 neighbors
                 if state == 0 and neighbors == 3:
                     next_grid[i][j] = 1
+                # if it was alive and have less than 2 or more than 3
                 elif state == 1 and (neighbors < 2 or neighbors > 3):
                     next_grid[i][j] = 0
                 else:
@@ -100,6 +103,6 @@ if __name__ == '__main__':
                     if 0 <= row < rows and 0 <= col < cols:
                         toggle_cell(row, col)
 
-        clock.tick(60)  # limits FPS
+        clock.tick(FPS)  # limits FPS
 
     pygame.quit()
